@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="@color/black"
+    android:background="@color/pinkDeep"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp">
@@ -11,19 +11,20 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:contentDescription="User Avatar"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@mipmap/picprofile_foreground" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="User Name"
+        android:text="Finn"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="user@email.com"
+        android:text="tanaporn.tant@gmail.com"
         android:textColor="@color/white" />
 </LinearLayout>
